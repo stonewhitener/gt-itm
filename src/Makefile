@@ -17,7 +17,6 @@ LDIR = ../lib
 BDIR = ../bin
 
 CFLAGS = -I$(IDIR) -L$(LDIR) $(SYS) $(BSDF)
-CC = gcc 
 
 GO = itm.o geog.o ts.o dfs.o
 CO = sgb2alt.o 
